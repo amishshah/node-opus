@@ -7,7 +7,7 @@
   "bugs": "https://github.com/Rantanen/node-opus/issues",
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -32,16 +32,9 @@
   },
   "dependencies": {
     "bindings": "~1.2.1",
-    "commander": "^2.9.0",
     "nan": "^2.14.0"
   },
-  "optionalDependencies": {
-    "ogg-packet": "^1.0.0"
-  },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^5.2.0",
-    "ogg": "^1.2.5",
     "stream-equal": "^1.0.0"
   }
 }
